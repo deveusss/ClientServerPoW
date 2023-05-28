@@ -1,0 +1,14 @@
+{
+    "ip": "127.0.0.1",
+    "port": 8080,
+    "max_connections": 100,
+    "ddos_threshold": 1000,
+    "challenge_length": 1,
+    "quotes": [
+      "The only true wisdom is in knowing you know nothing.",
+      "The best revenge is massive success.",
+      "The only way to do great work is to love what you do.",
+      "Success is not the key to happiness. Happiness is the key to success.",
+      "In three words I can sum up everything I've learned about life: it goes on."
+    ]
+  }

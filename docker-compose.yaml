@@ -1,0 +1,18 @@
+version: '3'
+services:
+  server:
+    build: ./server
+    ports:
+      - 8080:8080
+    networks:
+      - mynetwork
+
+  client:
+    build: ./client
+    depends_on:
+      - server
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
